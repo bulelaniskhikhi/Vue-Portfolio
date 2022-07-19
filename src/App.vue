@@ -2,16 +2,21 @@
   
     <LandingView />
   
-    <div class="container min-vh-100">
-      <H1>My skills</H1>
+    <div id="skills" style="height: 0rem"></div>
+    <div class="container"  style='margin-top: 10rem;'>
+      <h1 style="margin-bottom: 3rem;">My skills</h1>
+      <SkillsView/>
     </div>
 
+
+    <div id="projects" style="height: 10rem"></div>
     <div class="container min-vh-100" >
-      <H1>My projects</H1>
+      <h1>My projects</H1>
+      <ProjectsView/>
     </div>
 
     <div class="container min-vh-100">
-      <H1>My footer</H1>
+      <h1>My resume </h1>
     </div>
 
   <div>
@@ -19,16 +24,16 @@
   </div>
     
 
-  <router-view/>
-
 </template>
 
 <script>
 import LandingView from './views/LandingView.vue'
 import FooterView from './views/FooterView.vue'
+import ProjectsView from './views/ProjectsView.vue'
+import SkillsView from './views/SkillsView.vue'
 
 export default {
-  components: { LandingView, FooterView },
+  components: { LandingView, FooterView, ProjectsView, SkillsView },
 
   
 }
@@ -36,5 +41,7 @@ export default {
 
 <!-- styles -->
 <style>
-
+.container{
+  min-width: fit-content;
+}
 </style>

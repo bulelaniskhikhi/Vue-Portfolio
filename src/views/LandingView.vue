@@ -1,27 +1,33 @@
 <template>
-  <div class="landing">
-    <section>
 
-      <!-- <nav>
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <router-link to="/landing">landing</router-link>
-      </nav> -->
-    
-    <div class="container-fluid d-flex justifty-content-center vh-100" style="margin-left: 6rem">
-        <div class=" d-flex justify-content-center flex-column h-100">
-
-            <h1 style="color: white">
-          Hi my name is xena
-        </h1>
-
-        <p class="fw-light" style="width: 500px">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus tempore praesentium veniam eaque eos sunt consequuntur architecto adipisci ad vitae laudantium quia laborum, veritatis, aut voluptatum quo consectetur aliquam aperiam?
-        </p>
-        </div>
-        
-    </div>
+  <nav class="sticky-top" style="background-color: #ffc2cc; height: 10vh;">
+    <div class="container">
+      <span>
+        <a href="#landing" class="links">Home</a>
+      <a href="#skills" class="links">Skills</a> 
+      <a href="#projects" class="links">Projects</a>
+      </span>
       
+    </div>
+  </nav>
+
+  <div class="landing" id="landing">
+    <section style="height: 90vh">
+      <div
+        class="container-fluid d-flex justifty-content-center vh-100"
+        style="margin-left: 6rem"
+      >
+        <div class="d-flex justify-content-center flex-column h-100">
+          <h1 style="color: white">Hi my name is Xena</h1>
+
+          <p class="fw-light" style="width: 500px">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+            tempore praesentium veniam eaque eos sunt consequuntur architecto
+            adipisci ad vitae laudantium quia laborum, veritatis, aut voluptatum
+            quo consectetur aliquam aperiam?
+          </p>
+        </div>
+      </div>
 
       <div class="wave wave1"></div>
       <div class="wave wave2"></div>
@@ -35,12 +41,9 @@
 </script>
 
 <style >
-p{
-    color:white;
+p {
+  color: white;
 }
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -106,4 +109,30 @@ section .wave.wave4 {
     background-position-x: -1000px;
   }
 }
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  color: black;
+}
+
+nav{
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  background-color: #ffc2cc;
+}
+
+span{
+  display: flex;
+  justify-content: center;
+  
+}
+
+a{
+margin: 20px
+}
+
 </style>
