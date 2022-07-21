@@ -6,6 +6,7 @@
         <a href="#landing" class="links">Home</a>
       <a href="#skills" class="links">Skills</a> 
       <a href="#projects" class="links">Projects</a>
+      <a href="#testimonals" class="links">Testimonals</a>
       </span>
       
     </div>
@@ -21,11 +22,15 @@
           <h1 style="color: white">Hi my name is Xena</h1>
 
           <p class="fw-light" style="width: 500px">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
-            tempore praesentium veniam eaque eos sunt consequuntur architecto
-            adipisci ad vitae laudantium quia laborum, veritatis, aut voluptatum
-            quo consectetur aliquam aperiam?
+            Hi, I'm an ambitious Front end developer based in Cape Town, South Africa. I seek every possible means to expand my abilities. If you can't tell pink is my favorite colour ♥
           </p>
+          <br>
+          <a href="#footer">
+            <button id="Contactbtn">
+            contact me
+          </button>
+          </a>
+          
         </div>
       </div>
 
@@ -40,7 +45,8 @@
 <script>
 </script>
 
-<style >
+<style scoped>
+
 p {
   color: white;
 }
@@ -135,4 +141,41 @@ a{
 margin: 20px
 }
 
+#Contactbtn{
+  width: 25%;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  background-color: #ffa2b2;
+  color: white;
+}
+
+button{
+
+  cursor: pointer;
+  overflow: hidden;
+  
+  transition: all .2s ease;
+
+  
+
+}
+
+button:after{
+  content: '';
+    position: absolute;
+    top: 0;
+    transform: skewX(-20deg);
+    background-image: linear-gradient(to right,transparent,rgba(#fff,.3),transparent); 
+}
+       
+button:hover {
+  animation: shine 1.6s ease;
+}
+    
+button:active{
+  transform: translateY(5px);
+}
+    
+    
 </style>
