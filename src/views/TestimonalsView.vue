@@ -112,6 +112,13 @@ export default {
           desc: "I was happy to see Xena`s work. Her ambition and creativity always create something special. If you are looking for something really unique, I highly recommend her.",
           img_URL: "https://i.postimg.cc/0N0b15cW/Amanda-1.jpg",
         },
+        {
+          id: 6,
+          name: "Clayton Adonis",
+          title: "Classmate & Pupil",
+          desc: "Xena is very passionate about her projects and will do anything to complete them. Her presence in the workplace can also better the mood of others",
+          img_URL: "https://i.postimg.cc/D0tkMKTt/clayton.jpg"
+        }
       ],
     };
   },
