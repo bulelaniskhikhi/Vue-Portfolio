@@ -46,7 +46,7 @@ text-decoration-style: dotted; color: #ffa2b2">Life Choices Academy</a> | 2022 -
             I am currently working and studying at the Life Choices Academy to  improve my coding  skills
             </p>
             <br>
-            <a href="https://drive.google.com/drive/folders/1Mu3Q84aQArzv5GbQGQO48iMKUeIxIyeh?usp=sharing"  download="">
+            <a href="../assets/Xena_Skhikhi-CV.pdf"  download>
               <button>download Cv</button>
             </a>
             
