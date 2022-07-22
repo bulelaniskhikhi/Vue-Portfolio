@@ -7,7 +7,10 @@
         <i class="fa-brands fa-github"></i>
       </a>
         
-        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/zuiel-undefined-59040a246/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        
 
         <a href="https://www.instagram.com/xenathesuccubus/" target="_blank">
           <i class="fa-brands fa-instagram"></i>
