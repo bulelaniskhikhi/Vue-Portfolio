@@ -39,8 +39,11 @@ text-decoration-style: dotted; color: #ffa2b2">Muizenberg High School</a>  | 201
           </p>
             <br/>
 
-            <h5 style="color: #ffa2b2"><a href="https://www.lifechoices.co.za/academy" target="_blank" style="text-decoration:underline;
-text-decoration-style: dotted; color: #ffa2b2">Life Choices Academy</a> | 2022 - present</h5>
+            <h5 style="color: #ffa2b2">
+            <a href="https://www.lifechoices.co.za/academy" target="_blank" style="text-decoration:underline;
+            text-decoration-style: dotted; color: #ffa2b2">
+            Life Choices Academy</a> | 2022 - present</h5>
+            
             <br/>
             <p>
             I am currently working and studying at the Life Choices Academy to  improve my coding  skills

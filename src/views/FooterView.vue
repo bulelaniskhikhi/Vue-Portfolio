@@ -13,6 +13,7 @@
           <i class="fa-brands fa-instagram"></i>
         </a>
         
+        <p style="color: white; font-size: 30px"><i class="fa-solid fa-phone"></i> +27 84 820 5707</p>
       </div>
 
       <div style="width: 100%; margin-top: 3rem; text-align: center">
