@@ -22,6 +22,7 @@
     <div style="height: 10rem">
 
     </div>
+    
     <div id="testimonals" style="height: 10rem" class="container">
     <h1 id="header" class="effect-underline fs-1 fw-light">
           Testimonals
@@ -32,13 +33,8 @@
         </div>
     </div>
 
-    <div class="container min-vh-100">
-      <h1 id="header" class="effect-underline fs-1 fw-light">
-          Resume 
-      </h1>
-    </div>
-
-    <div class="container min-vh-100">
+    <div id="contact" style="height: 5rem"></div>
+    <div class="container min-vh-100" style="margin-bottom: 3rem">
       <div>
         <h1 id="header" class="effect-underline fs-1 fw-light">
           Contact

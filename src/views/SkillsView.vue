@@ -29,19 +29,27 @@
             Hello, my name is Xena Skhikhi. I am an ambitious front-end developer. I learned design and art. I love coding and designing websites and want to continue my career as a web developer. My passion for these areas drives me to make something special.
           </p>
             <br/>
+            <h2 style="color: #ffa2b2">Resume</h2>
             <br/>
-            <h5 style="color: #ffa2b2">Muizenberg High School</h5>
+            <h5 style="color: #ffa2b2"> <a href="https://muizenberghigh.org/" target="_blank" style="text-decoration:underline;
+text-decoration-style: dotted; color: #ffa2b2">Muizenberg High School</a>  | 2017 - 2021</h5>
             <br/>
           <p>
             I attended Muizenberg High School and studied art and visual arts. I plan  to use it to improve our skills, build better websites and create better web designs.
           </p>
             <br/>
 
-            <h5 style="color: #ffa2b2">Life Choices Academy</h5>
+            <h5 style="color: #ffa2b2"><a href="https://www.lifechoices.co.za/academy" target="_blank" style="text-decoration:underline;
+text-decoration-style: dotted; color: #ffa2b2">Life Choices Academy</a> | 2022 - present</h5>
             <br/>
             <p>
             I am currently working and studying at the Life Choices Academy to  improve my coding  skills
             </p>
+            <br>
+            <a href="https://drive.google.com/drive/folders/1Mu3Q84aQArzv5GbQGQO48iMKUeIxIyeh?usp=sharing"  download="">
+              <button>download Cv</button>
+            </a>
+            
         </div>
         
         <div
@@ -154,6 +162,16 @@ img {
   object-fit: cover;
   height: 70vh;
   object-position: 0px 0px;
+}
+
+button{
+  background-color: #ffa2b2;
+    border-radius: 20px;
+    color: white;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border: none;
+    padding: 10px;
 }
 </style>
 

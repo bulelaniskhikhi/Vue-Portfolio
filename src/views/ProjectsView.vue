@@ -93,9 +93,9 @@ export default {
       projects:[
       {
         id: 1,
-        name: 'Product listing',
+        name: 'Magica',
         img_URL: 'https://i.postimg.cc/xCvxS39M/product-list.gif',
-        project_DESC: 'This was a project I did while at the Life Choices Academy and I had to use Javascript to display the products.',
+        project_DESC: 'This was a project I did while at the Life Choices Academy and I had to use Javascript to display the products. I decided to use Magical Weapons as my products to sell. It was a homage to the 90s anime magical girl aesthetic, taking alot of inspiration from Sailor moon and Cardcaptor Sakura',
         project_GithubLink: 'https://github.com/bulelaniskhikhi/Practical_1--Property-listing-',
         project_LiveLink: "https://sunny-lolly-e4b289.netlify.app/",
       }

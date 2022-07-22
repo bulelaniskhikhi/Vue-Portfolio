@@ -2,12 +2,13 @@
 
   <nav class="sticky-top" style="background-color: #ffc2cc; height: 10vh;">
     <div class="container">
-      <span>
+      <div class="d-flex justify-content-evenly">
         <a href="#landing" class="links">Home</a>
       <a href="#skills" class="links">Skills</a> 
       <a href="#projects" class="links">Projects</a>
       <a href="#testimonals" class="links">Testimonals</a>
-      </span>
+      <a href="#contact" class="links">Contact</a>
+      </div>
       
     </div>
   </nav>
