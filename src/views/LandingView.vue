@@ -17,12 +17,13 @@
     <section style="height: 90vh">
       <div
         class="container-fluid d-flex justifty-content-center vh-100"
-        style="margin-left: 6rem"
+        style="margin-left: 6rem; max-width: 100%;"
+        id="landingtext"
       >
         <div class="d-flex justify-content-center flex-column h-100">
           <h1 style="color: white">Hi my name is Xena</h1>
 
-          <p class="fw-light" style="width: 500px">
+          <p id="landingdesc" class="fw-light" style="width: 500px">
             Hi, I'm an ambitious Front end developer based in Cape Town, South Africa. I seek every possible means to expand my abilities. If you can't tell pink is my favorite colour ♥
           </p>
           <br>
@@ -177,6 +178,18 @@ button:hover {
 button:active{
   transform: translateY(5px);
 }
-    
+
+/* media Query */
+@media (max-width: 321px) {
+  #landingtext{
+    justify-content: space-evenly;
+  }
+  #landingdesc{
+    width: 100% !important;
+  }
+  nav{
+    width: 200px !important;
+  }
+}
     
 </style>

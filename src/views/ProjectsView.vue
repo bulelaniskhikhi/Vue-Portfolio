@@ -98,6 +98,38 @@ export default {
         project_DESC: 'This was a project I did while at the Life Choices Academy and I had to use Javascript to display the products. I decided to use Magical Weapons as my products to sell. It was a homage to the 90s anime magical girl aesthetic, taking alot of inspiration from Sailor moon and Cardcaptor Sakura',
         project_GithubLink: 'https://github.com/bulelaniskhikhi/Practical_1--Property-listing-',
         project_LiveLink: "https://sunny-lolly-e4b289.netlify.app/",
+      },
+      {
+        id: 2,
+        name: 'JS Calculator',
+        img_URL: "https://i.postimg.cc/FsW73VPp/js-calculator.gif",
+        project_DESC: "This was a project given to use by Life Choices Academy were we had to make a functional Javascript Calculator",
+        project_GithubLink: "https://github.com/bulelaniskhikhi/Exercise-2-Calculator",
+        project_LiveLink: "https://preeminent-starburst-2a35ec.netlify.app/",
+      },
+      {
+        id: 3,
+        name: "Interest Calculator",
+        img_URL: "https://i.postimg.cc/WzLqhG78/ezgif-4-1e4015c703.gif",
+        project_DESC:"This was a project given by Life Choices Academy were we had to make a functional JavaScript interest calculator",
+        project_GithubLink:"https://github.com/bulelaniskhikhi/Exercise_14--Interest-Amount-",
+        project_LiveLink: "https://fascinating-crostata-8ab8ed.netlify.app/",
+      },
+      {
+        id: 4,
+        name: "Hex to RGB Converter",
+        img_URL:"https://i.postimg.cc/J7gFqGsY/hex-to-RGB.gif",
+        project_DESC:"This is a project given to us by Life Choices Academy were we had to type in a number and it must convert it from hex to rgb and show a preview of the colour ",
+        project_GithubLink:"https://github.com/bulelaniskhikhi/Exercise_12--Hex-to-RGB-",
+        project_LiveLink:"https://glistening-sherbet-4b2f75.netlify.app/",
+      },
+      {
+        id: 5,
+        name: "Mahou Shoujo site",
+        img_URL: "https://i.postimg.cc/B60XKxDW/ezgif-4-1002d57936.gif",
+        project_DESC: "This is personal project where i took inspiration from an Manga/anime i was one of my favourite projects and i still continue to work on it",
+        project_GithubLink: "https://github.com/bulelaniskhikhi/Mahou-Shoujo-site",
+        project_LiveLink: "https://mahou-shoujo-site.netlify.app/",
       }
         
       ]

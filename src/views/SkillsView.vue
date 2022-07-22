@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div id="Skillinfo" class="d-flex flex-wrap justify-content-between">
+    <div id="Skillinfo" class="d-flex flex-wrap justify-content-between" style="min-width: 100%">
       <div
         class="d-flex"
         style="
@@ -11,7 +11,7 @@
         "
       >
         <img
-          class="floating cover img-fluid"
+          class="floating cover"
           src="https://i.postimg.cc/MpPkdFJn/Bulelani-1.jpg"
           alt=""
           style="width: 100%"
@@ -128,6 +128,8 @@ img {
   display: flex;
   justify-content: center;
   border-radius: 20px;
+
+  width: 50%;
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,

@@ -9,7 +9,7 @@
     <div class="col-md-6">
       <img
         class="card-img-top"
-        style="height: 350px; width: 35rem"
+        style="height: 350px; width: 35rem;"
         :src="testimonals.img_URL"
         alt="Card image cap"
       />
