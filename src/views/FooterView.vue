@@ -11,11 +11,6 @@
           <i class="fa-brands fa-linkedin"></i>
         </a>
         
-
-        <a href="https://www.instagram.com/xenathesuccubus/" target="_blank">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        
         <p style="color: white; font-size: 30px"><i class="fa-solid fa-phone"></i> +27 84 820 5707</p>
       </div>
 
