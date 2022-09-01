@@ -8,7 +8,7 @@
 
       <h3 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" >Chaos Emeralds</h3>
 
-      <img src="https://i.postimg.cc/3JyvZ9fn/chaos-crystal.gif" class="d-block w-100" alt="...">
+      <img src="https://i.postimg.cc/3JyvZ9fn/chaos-crystal.gif" class="d-block  m" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <div style="color: #ffa2b2;">
           
@@ -38,7 +38,7 @@
 
     <h3 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" >{{projects.name}}</h3>
 
-    <img :src="projects.img_URL" class="d-block w-100" alt="..." style="width: 1200px">
+    <img :src="projects.img_URL" class="d-block" alt="..." style="width: 1200px">
 
     <div class="carousel-caption d-none d-md-block" style="background-color: white; border-radius: 20px;">
         <div style="color: #ffa2b2;">
@@ -145,7 +145,9 @@ export default {
 
 img {
   height: 70vh !important;
-  width: 1200px;
+  width: 625px !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #carouselExampleCaptions{
