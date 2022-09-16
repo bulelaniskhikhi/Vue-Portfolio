@@ -1,26 +1,22 @@
 <template>
   <div class="container">
-    <div id="Skillinfo" class="d-flex flex-wrap justify-content-between" style="min-width: 100%">
-      <div
-        class="d-flex"
-        style="
-          width: 500px;
-          display: flex;
-          height: 70vh;
-          justify-content: center;
-        "
-      >
+    <div class="table" id="Skillinfo">
+      <div class="row">
+
+<div class="col-lg-6 col-md-12 col-sm-12">
         <img
-          class="floating cover"
+          class="floating cover img-fluid"
           src="https://i.postimg.cc/MpPkdFJn/Bulelani-1.jpg"
           alt=""
-          style="width: 100%"
+          style="width: 100%; margin-bottom: 3rem"
         />
       </div>
 
+      <div class="col-lg-6 col-md-12 col-sm-12">
 
-      <div style="width: 500px; height: 70vh" class="d-flex">
-        <div style="margin-right: 50px">
+        <div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12">
           <h2 style="color: #ffa2b2">About me</h2>
 
           <br />
@@ -54,13 +50,13 @@ text-decoration-style: dotted; color: #ffa2b2">Muizenberg High School</a>  | 201
             </a>
             
         </div>
-        
-        <div
-          class="flex-column d-flex justify-content-evenly"
-          style="width: 100px;"
+
+<!-- <div class="col-lg-6 col-md-6 col-sm-6 " 
         >
+
+        <div>
           <i
-            class="fa-brands fa-html5"
+            class="fa-brands fa-html5 "
             data-aos="fade-left"
             data-aos-easing="linear"
             data-aos-duration="500"
@@ -95,9 +91,19 @@ text-decoration-style: dotted; color: #ffa2b2">Muizenberg High School</a>  | 201
             data-aos-easing="linear"
             data-aos-duration="700"
           ></i>
+        </div>
+          
+
+        </div> -->
 
         </div>
+        
+
       </div>
+      
+      </div>
+      
+
     </div>
   </div>
 </template>
@@ -111,10 +117,6 @@ export default {
 </script>
 
 <style scoped>
-* {
-  padding: 0;
-  margin: 0;
-}
 
 i {
   font-size: 50px;
@@ -123,9 +125,9 @@ i {
   color: #ffa2b2;
 }
 
-#Skillinfo {
+/* #Skillinfo {
   gap: 100px;
-}
+} */
 
 img {
   display: flex;
@@ -137,6 +139,7 @@ img {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 0;
 }
 
 .floating {
@@ -173,10 +176,8 @@ button{
   background-color: #ffa2b2;
     border-radius: 20px;
     color: white;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
     border: none;
-    padding: 10px;
+    
 }
 </style>
 

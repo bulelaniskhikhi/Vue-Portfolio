@@ -1,5 +1,6 @@
 <template>
-<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="false"  >
+
+<!-- <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="false"  >
  
 
   <div class="carousel-inner" style="border-radius: 20px">
@@ -8,7 +9,7 @@
 
       <h3 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" >Chaos Emeralds</h3>
 
-      <img src="https://i.postimg.cc/3JyvZ9fn/chaos-crystal.gif" class="d-block  m" alt="...">
+      <img src="https://i.postimg.cc/3JyvZ9fn/chaos-crystal.gif" class="d-block img-fluid" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <div style="color: #ffa2b2;">
           
@@ -38,12 +39,12 @@
 
     <h3 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" >{{projects.name}}</h3>
 
-    <img :src="projects.img_URL" class="d-block" alt="..." style="width: 1200px">
+    <img :src="projects.img_URL" class="d-block img-fluid" style="width: 1200px">
 
     <div class="carousel-caption d-none d-md-block" style="background-color: white; border-radius: 20px;">
         <div style="color: #ffa2b2;">
           
-          <h5 class="fs-5 fw-light" style="padding-left: 20px; padding-right: 20px;">
+          <h5 class="fs-5 fw-light" style="">
             {{projects.project_DESC}}
           </h5>
 
@@ -81,8 +82,9 @@
 
   </button>
 
-</div>
+</div> -->
   
+  this is to see if its still responsive
 </template>
     
 <script >

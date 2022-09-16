@@ -1,29 +1,16 @@
 <template>
 
-  <nav class="sticky-top" style="background-color: #ffc2cc; height: 10vh;">
-    <div class="container">
-      <div class="d-flex justify-content-evenly">
-        <a href="#landing" class="links">Home</a>
-      <a href="#skills" class="links">Skills</a> 
-      <a href="#projects" class="links">Projects</a>
-      <a href="#testimonals" class="links">Testimonals</a>
-      <a href="#contact" class="links">Contact</a>
-      </div>
-      
-    </div>
-  </nav>
+  
 
   <div class="landing" id="landing">
-    <section style="height: 90vh">
-      <div
-        class="container-fluid d-flex justifty-content-center vh-100"
-        style="margin-left: 6rem; max-width: 100%;"
-        id="landingtext"
-      >
-        <div class="d-flex justify-content-center flex-column h-100">
-          <h1 style="color: white">Hi my name is Xena</h1>
+    <section >
 
-          <p id="landingdesc" class="fw-light" style="width: 500px">
+      <div class="container " id="landingtext" style="display: flex; justify-content: start; align-items: end; height: 100%; width: 100%">
+
+        <div style=" display: flex; justify-content: end; margin-bottom: 10rem; margin-right: 2rem">
+        <div>
+          <h1 style="color: white">Hi my name is Xena</h1>
+          <p id="landingdesc" class="fw-light" style="width: 80%">
             Hi, I'm an ambitious Front end developer based in Cape Town, South Africa. I seek every possible means to expand my abilities. If you can't tell pink is my favorite colour ♥
           </p>
           <br>
@@ -32,16 +19,33 @@
             contact me
           </button>
           </a>
+        </div>
+          
+
+          
           
         </div>
+
       </div>
 
-      <div class="wave wave1"></div>
+      <div class="footer" >
+        <div class="wave wave1"></div>
       <div class="wave wave2"></div>
       <div class="wave wave3"></div>
       <div class="wave wave4"></div>
+      </div>
+      
+
     </section>
+
+    
   </div>
+
+  <!-- <section>
+    <div class="landing" id="landing">
+
+    </div>
+  </section> -->
 </template>
 
 <script>
@@ -52,10 +56,7 @@
 p {
   color: white;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
+
 section {
   position: relative;
   width: 100%;
@@ -128,8 +129,6 @@ section .wave.wave4 {
 }
 
 nav{
-  /* border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; */
   background-color: #ffc2cc;
 }
 
@@ -139,12 +138,8 @@ span{
   
 }
 
-a{
-margin: 20px
-}
-
 #Contactbtn{
-  width: 25%;
+  width: 50%;
   border-radius: 20px;
   border: none;
   padding: 10px;
@@ -177,19 +172,6 @@ button:hover {
     
 button:active{
   transform: translateY(5px);
-}
-
-/* media Query */
-@media (max-width: 321px) {
-  #landingtext{
-    justify-content: space-evenly;
-  }
-  #landingdesc{
-    width: 100% !important;
-  }
-  nav{
-    width: 200px !important;
-  }
 }
     
 </style>

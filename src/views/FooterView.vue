@@ -14,7 +14,7 @@
         <p style="color: white; font-size: 30px"><i class="fa-solid fa-phone"></i> +27 84 820 5707</p>
       </div>
 
-      <div style="width: 100%; margin-top: 3rem; text-align: center">
+      <div style="width: 100%; text-align: center">
         <p class="footertext fw-light" style="font-size: 2rem">
           Xena Skhikhi copyright© 2022
         </p>

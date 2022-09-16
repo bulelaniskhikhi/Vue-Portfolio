@@ -1,15 +1,15 @@
 <template>
   <div
     class="card mx-auto"
-    style="width: 35rem; position: relative; height: 350px; margin-bottom: 40px"
+    style="width: 100%; position: relative; height: 350px; margin-bottom: 40px"
     data-aos="fade-up"
     data-aos-duration="3000"
     v-for="testimonals in testimonals">
     
     <div class="col-md-6">
       <img
-        class="card-img-top"
-        style="height: 350px; width: 35rem;"
+        class="card-img-top img-fluid"
+        style="width: 100%"
         :src="testimonals.img_URL"
         alt="Card image cap"
       />
@@ -27,6 +27,7 @@
           {{ testimonals.desc }}
         </p>
       </div>
+
     </div>
   </div>
 </template>
@@ -40,7 +41,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 1.8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,6 +48,7 @@
   transition: all 0.3s linear;
   height: 350px;
   border-radius: 20px;
+  width: auto;
 }
 
 #backface:hover {
@@ -55,8 +56,10 @@
 }
 
 img {
-  object-fit: cover;
-  border-radius: 20px;
+  /* object-fit: cover; */
+  /* border-radius: 20px; */
+  width: 100%;
+  height: auto;
 }
 
 .card-body {
