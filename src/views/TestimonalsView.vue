@@ -1,21 +1,19 @@
 <template>
-  <div
-    class="card mx-auto"
-    style="width: 100%; position: relative; height: 350px; margin-bottom: 40px"
+  <div id="testimonals" class="container" style="padding-top: 10rem">
+    <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 1.2rem; font-size: 3rem;">TESTIMONALS</h3>
+    <div class="row">
+    <div class="col-md-6" v-for="testimonals in testimonals" style="">
+
+      <div class="card" style="position: relative; background-color: transparent; "
     data-aos="fade-up"
     data-aos-duration="3000"
-    v-for="testimonals in testimonals">
-    
-    <div class="col-md-6">
-      <img
-        class="card-img-top img-fluid"
-        style="width: 100%"
-        :src="testimonals.img_URL"
-        alt="Card image cap"
-      />
+    >
 
-      <div id="backface" class="card-body">
-        <h5 class="card-title" style="padding-bottom: 1rem; color: white">
+    <img  :src="testimonals.img_URL" style="border-radius: 20px; overflow: hidden; width: auto;"/>
+
+    <div id="backface" class="card-body overflow-auto">
+      <div class="container" style="padding-bottom: 10rem; padding-top: 15rem;">
+<h5 class="card-title" style="padding-bottom: 1rem; color: white;">
           {{ testimonals.name }}
         </h5>
 
@@ -23,13 +21,19 @@
           <strong>{{ testimonals.title }}</strong>
         </p>
 
-        <p class="card-text row fw-light" style="color: white">
+        <p class="card-text fw-light" style="color: white; height: 10vh; overflow: auto">
           {{ testimonals.desc }}
         </p>
       </div>
+        
+      </div>
+
+      </div>
 
     </div>
+    </div>
   </div>
+  
 </template>
 
 <style scoped>
@@ -46,7 +50,6 @@
   justify-content: center;
   opacity: 0;
   transition: all 0.3s linear;
-  height: 350px;
   border-radius: 20px;
   width: auto;
 }
@@ -71,7 +74,24 @@ img {
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: #ffffff;
+  background-color: #ffffff00;
+  margin: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 10px;
 }
 </style>
 

@@ -1,5 +1,6 @@
 <template>
-  <div id="footerInfo">
+  <div id="footer" style="padding-top: 10rem;">
+    <div id="footerInfo">
     <div class="container">
       <div class="d-flex justify-content-evenly" style="padding-top: 3rem">
 
@@ -21,6 +22,8 @@
       </div>
     </div>
   </div>
+  </div>
+  
 </template>
 
 <style scoped>

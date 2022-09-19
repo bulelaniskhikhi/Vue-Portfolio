@@ -1,30 +1,73 @@
 <template>
-
-<!-- <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="false"  >
+<div id="projects" class="container" style="padding-top: 10rem">
+  <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 3rem;">PROJECTS</h3>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="false"  >
  
 
   <div class="carousel-inner" style="border-radius: 20px">
 
     <div class="carousel-item active">
 
-      <h3 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" >Chaos Emeralds</h3>
+      <div class="card" style="width: 100%;">
 
-      <img src="https://i.postimg.cc/3JyvZ9fn/chaos-crystal.gif" class="d-block img-fluid" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+<h5 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" class="card-title">Magica</h5>
+
+<img src="https://i.postimg.cc/xCvxS39M/product-list.gif" class="d-block img-fluid" >
+
+<div class="card-body overflow-auto" style="height: 30vh;">
+
+<div style="color: #ffa2b2;">
+  <div class="mx-auto" style="display: flex; justify-content: center; width: 80%; text-align: center;">
+    <h5 class="fs-5 fw-light card-text" >
+      This was a project I did while at the Life Choices Academy and I had to use Javascript to display the products. I decided to use Magical Weapons as my products to sell. It was a homage to the 90s anime magical girl aesthetic, taking alot of inspiration from Sailor moon and Cardcaptor Sakura
+  </h5>
+  </div>
+  
+
+  <br/>
+
+  <div class="d-flex justify-content-evenly">
+    <a href="https://github.com/bulelaniskhikhi/Practical_1--Property-listing-" target="_blank">
+            <i class="fa-brands fa-github" style="font-size: 2rem; color: #ffa2b2;"></i>
+  </a>
+
+  <a href="https://sunny-lolly-e4b289.netlify.app/" target="_blank">
+    <i class="fa-solid fa-globe" style="font-size: 2rem; color: #ffa2b2;"></i> 
+  </a>
+
+  </div>
+  
+</div>
+</div>
+
+</div>
+    </div>
+
+    <div class="carousel-item" v-for="project in projects" :key="project.id">
+      <div class="card" style="width: 100%;">
+
+        <h5 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" class="card-title">{{project.name}}</h5>
+
+        <img :src="project.img_URL" :alt="project.name" class="d-block img-fluid" >
+
+      <div class="card-body overflow-auto" style="height: 25vh;">
+        
         <div style="color: #ffa2b2;">
-          
-          <h5 class="fs-5 fw-light" style="padding-left: 20px; padding-right: 20px;">
-            This is a personal project inspired by the Sonic series. I decided to create a 3D carousel from Chaos emeralds
+          <div class="mx-auto" style="display: flex; justify-content: center; width: 80%; text-align: center;">
+            <h5 class="fs-5 fw-light card-text" >
+            {{project.project_DESC}}
           </h5>
+          </div>
+          
 
           <br/>
 
           <div class="d-flex justify-content-evenly">
-            <a href="https://github.com/bulelaniskhikhi/Choas-Emeralds-3d-Carousel" target="_blank">
+            <a :href="project.project_GithubLink" target="_blank">
             <i class="fa-brands fa-github" style="font-size: 2rem; color: #ffa2b2;"></i>
           </a>
 
-          <a href="https://starlit-lokum-0f1d72.netlify.app/" target="_blank">
+          <a :href="project.project_LiveLink" target="_blank">
             <i class="fa-solid fa-globe" style="font-size: 2rem; color: #ffa2b2;"></i> 
           </a>
 
@@ -34,38 +77,11 @@
       </div>
 
     </div>
-
-    <div class="carousel-item" v-for="projects in projects" :key="project">
-
-    <h3 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" >{{projects.name}}</h3>
-
-    <img :src="projects.img_URL" class="d-block img-fluid" style="width: 1200px">
-
-    <div class="carousel-caption d-none d-md-block" style="background-color: white; border-radius: 20px;">
-        <div style="color: #ffa2b2;">
-          
-          <h5 class="fs-5 fw-light" style="">
-            {{projects.project_DESC}}
-          </h5>
-
-          <br/>
-
-          <div class="d-flex justify-content-evenly">
-            <a :href="projects.project_GithubLink" target="_blank">
-            <i class="fa-brands fa-github" style="font-size: 2rem; color: #ffa2b2;"></i>
-          </a>
-
-          <a :href="projects.project_LiveLink" target="_blank">
-            <i class="fa-solid fa-globe" style="font-size: 2rem; color: #ffa2b2;"></i> 
-          </a>
-
-          </div>
-          
-        </div>
-      </div>
     </div>
 
   </div>
+
+  
 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
 
@@ -82,9 +98,10 @@
 
   </button>
 
-</div> -->
+</div>
+</div>
+
   
-  this is to see if its still responsive
 </template>
     
 <script >
@@ -95,11 +112,11 @@ export default {
       projects:[
       {
         id: 1,
-        name: 'Magica',
-        img_URL: 'https://i.postimg.cc/xCvxS39M/product-list.gif',
-        project_DESC: 'This was a project I did while at the Life Choices Academy and I had to use Javascript to display the products. I decided to use Magical Weapons as my products to sell. It was a homage to the 90s anime magical girl aesthetic, taking alot of inspiration from Sailor moon and Cardcaptor Sakura',
-        project_GithubLink: 'https://github.com/bulelaniskhikhi/Practical_1--Property-listing-',
-        project_LiveLink: "https://sunny-lolly-e4b289.netlify.app/",
+        name: 'Chaos Emeralds',
+        img_URL: 'https://i.postimg.cc/3JyvZ9fn/chaos-crystal.gif',
+        project_DESC: 'This is a personal project inspired by the Sonic series. I decided to create a 3D carousel from Chaos emeralds',
+        project_GithubLink: 'https://github.com/bulelaniskhikhi/Choas-Emeralds-3d-Carousel',
+        project_LiveLink: "https://starlit-lokum-0f1d72.netlify.app/",
       },
       {
         id: 2,

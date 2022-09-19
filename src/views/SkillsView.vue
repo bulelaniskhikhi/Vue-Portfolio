@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-    <div class="table" id="Skillinfo">
+  <div class="container" id="skills" style="padding-top: 5rem;">
+    <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 3rem;">SKILLS</h3>
+    <div class="table" id="Skillinfo" >
       <div class="row">
 
 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -46,7 +47,7 @@ text-decoration-style: dotted; color: #ffa2b2">Muizenberg High School</a>  | 201
             </p>
             <br>
             <a href="../assets/Xena_Skhikhi-CV.pdf"  download>
-              <button>download Cv</button>
+              <button style="padding-right: 20px; padding-left: 20px; padding: 10px;">download Cv</button>
             </a>
             
         </div>

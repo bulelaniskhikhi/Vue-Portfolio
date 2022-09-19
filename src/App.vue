@@ -1,54 +1,22 @@
 <template>
   
-    <!-- <NavBar/> -->
+    <NavBar/>
 
-    <!-- <LandingView /> -->
-  
+    <LandingView />
+
+    <SkillsView/>
     
-
-      <!-- <h1 id="header" class="effect-underline fs-1 fw-light">
-        Skills
-      </h1> -->
-
-      <SkillsView/>
-    
-
-    <!-- <div id="projects" style="height: 10rem"></div>
-    <div class="container min-vh-100" >
-      <h1 id="header" class="effect-underline fs-1 fw-light">Projects</H1>
-      <ProjectsView/>
-    </div> -->
-    
-    <!-- <div id="testimonals" style="height: 10rem" class="container">
-
-    <h1 id="header" class="effect-underline fs-1 fw-light">
-          Testimonals
-        </h1>
+      <!-- <h1 id="header" class="effect-underline fs-1 fw-light">Projects</H1> -->
+    <ProjectsView/>
         
-        </div>
-    <div class="container min-vh-100">
-        <div class="row">
-          <TestimonalsView/>
-        </div>
-    </div> -->
-
-    <!-- <div id="contact" style="height: 5rem"></div>
-    <div class="container min-vh-100" style="margin-bottom: 3rem">
-      <div>
-        <h1 id="header" class="effect-underline fs-1 fw-light">
-          Contact
-        </h1>
-      </div>
-      <div>
-        <ContactsView/>
-      </div>
-    </div> -->
-
-  <!-- <div>
+    
+    <TestimonalsView/>
+        
+    <ContactsView/>
+     
     <FooterView/>
-  </div>
-  <div id="footer">
-  </div> -->
+
+  
     
 
 </template>
