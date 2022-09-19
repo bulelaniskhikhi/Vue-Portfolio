@@ -1,6 +1,6 @@
 <template>
   <div class="container" id="skills" style="padding-top: 5rem;">
-    <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 3rem;">SKILLS</h3>
+    <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 2.6rem; text-align: center;">SKILLS</h3>
     <div class="table" id="Skillinfo" >
       <div class="row">
 

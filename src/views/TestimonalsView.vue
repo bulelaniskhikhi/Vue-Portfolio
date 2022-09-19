@@ -1,6 +1,6 @@
 <template>
   <div id="testimonals" class="container" style="padding-top: 10rem">
-    <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 1.2rem; font-size: 3rem;">TESTIMONALS</h3>
+    <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif;font-size: 2.6rem; text-align: center;">TESTIMONALS</h3>
     <div class="row">
     <div class="col-md-6" v-for="testimonals in testimonals" style="">
 

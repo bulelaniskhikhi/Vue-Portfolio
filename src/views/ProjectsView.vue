@@ -1,6 +1,6 @@
 <template>
 <div id="projects" class="container" style="padding-top: 10rem">
-  <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 3rem;">PROJECTS</h3>
+  <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 2.6rem; text-align: center;">PROJECTS</h3>
   <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="false"  >
  
 

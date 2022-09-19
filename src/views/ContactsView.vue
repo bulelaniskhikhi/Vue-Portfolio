@@ -1,6 +1,6 @@
 <template>
     <div class="container" style="padding-top: 10rem;" id="contact">
-        <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 3rem;">CONTACT</h3>
+        <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 2.6rem; text-align: center;">CONTACT</h3>
 <form action="https://formspree.io/f/xoqrkjog" method="POST" id="form">
 
         <label for="fname" class="fw-light"  style="color: black; font-size: 2rem; font-family: 'Roboto', sans-serif;">First name:</label>
