@@ -6,10 +6,10 @@
 
     <SkillsView/>
     
-      <!-- <h1 id="header" class="effect-underline fs-1 fw-light">Projects</H1> -->
+    <SkillsIcons/>
+    
     <ProjectsView/>
         
-    
     <TestimonalsView/>
         
     <ContactsView/>
@@ -23,6 +23,7 @@
 
 <script>
 import NavBar from '@/components/NavBarComponent.vue'
+import SkillsIcons from '@/components/SkillsIconsComponent.vue'
 
 import LandingView from '@/views/LandingView.vue'
 import FooterView from './views/FooterView.vue'
@@ -32,13 +33,19 @@ import ContactsView from './views/ContactsView.vue'
 import TestimonalsView from './views/TestimonalsView'
 
 export default {
-  components: { LandingView, FooterView, ProjectsView, SkillsView, ContactsView, TestimonalsView, NavBar },
-
-  
+  components: { 
+    LandingView, 
+    FooterView, 
+    ProjectsView, 
+    SkillsView, 
+    ContactsView, 
+    TestimonalsView, 
+    NavBar,
+    SkillsIcons 
+  },
 }
 </script>
 
-<!-- styles -->
 <style>
 
 </style>
