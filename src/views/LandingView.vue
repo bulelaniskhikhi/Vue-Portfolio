@@ -180,9 +180,15 @@ button:active{
   }
 }
 
-@media only screen and (min-width : 992px) {
+/* @media only screen and (min-width : 992px) {
   #landingtext{
     height: 753px
+  }
+} */
+
+@media only screen and (max-width: 1200px){
+  #landingtext{
+    height: 579px;
   }
 }
 </style>
