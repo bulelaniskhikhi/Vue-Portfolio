@@ -60,7 +60,7 @@ p {
 section {
   position: relative;
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   background: #ffc2cc;
   overflow: hidden;
 }
