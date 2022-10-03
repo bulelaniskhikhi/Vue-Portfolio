@@ -5,7 +5,7 @@
   <div class="landing" id="landing">
     <section >
 
-      <div class="container " id="landingtext" style="display: flex; justify-content: start; align-items: end; height: 100vh; width: 100%">
+      <div class="container " id="landingtext" style="display: flex; justify-content: start; align-items: end; height: 800px; width: 100%">
 
         <div style=" display: flex; justify-content: end; margin-bottom: 10rem; margin-right: 2rem">
         <div>
@@ -173,5 +173,11 @@ button:hover {
 button:active{
   transform: translateY(5px);
 }
-    
+ 
+@media only screen and (min-width : 320px) {
+  #landingtext{
+    height: 575px;
+  }
+}
 </style>
+
