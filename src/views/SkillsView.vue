@@ -1,110 +1,99 @@
 <template>
-  <div class="container" id="skills" style="padding-top: 5rem;">
-    <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 2.6rem; text-align: center;">SKILLS</h3>
-    <div class="table" id="Skillinfo" >
+  <div class="container" id="skills" style="padding-top: 5rem">
+    <h3
+      style="
+        padding-bottom: 3rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.6rem;
+        text-align: center;
+      "
+    >
+      SKILLS
+    </h3>
+    
+    <div class="table" id="Skillinfo">
       <div class="row">
-
-<div class="col-lg-6 col-md-12 col-sm-12">
-        <img
-          class="floating cover img-fluid"
-          src="https://i.postimg.cc/MpPkdFJn/Bulelani-1.jpg"
-          alt=""
-          style="width: 100%; margin-bottom: 3rem"
-        />
-      </div>
-
-      <div class="col-lg-6 col-md-12 col-sm-12">
-
-        <div class="row">
-
-<div class="col-lg-12 col-md-12 col-sm-12">
-          <h2 style="color: #ffa2b2">About me</h2>
-
-          <br />
-
-          <p>
-            Hello, my name is Xena Skhikhi. I am an ambitious front-end developer. I learned design and art. I love coding and designing websites and want to continue my career as a web developer. My passion for these areas drives me to make something special.
-          </p>
-            <br/>
-            <h2 style="color: #ffa2b2">Resume</h2>
-            <br/>
-            <h5 style="color: #ffa2b2"> <a href="https://muizenberghigh.org/" target="_blank" style="text-decoration:underline;
-text-decoration-style: dotted; color: #ffa2b2">Muizenberg High School</a>  | 2017 - 2021</h5>
-            <br/>
-          <p>
-            I attended Muizenberg High School and studied art and visual arts. I plan  to use it to improve our skills, build better websites and create better web designs.
-          </p>
-            <br/>
-
-            <h5 style="color: #ffa2b2">
-            <a href="https://www.lifechoices.co.za/academy" target="_blank" style="text-decoration:underline;
-            text-decoration-style: dotted; color: #ffa2b2">
-            Life Choices Academy</a> | 2022 - present</h5>
-            
-            <br/>
-            <p>
-            I am currently working and studying at the Life Choices Academy to  improve my coding  skills
-            </p>
-            <br>
-            <a href="../assets/Xena_Skhikhi-CV.pdf"  download>
-              <button style="padding-right: 20px; padding-left: 20px; padding: 10px;">download Cv</button>
-            </a>
-            
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img
+            class="floating cover img-fluid"
+            src="https://i.postimg.cc/MpPkdFJn/Bulelani-1.jpg"
+            alt=""
+            style="width: 100%; margin-bottom: 3rem"
+          />
         </div>
 
-<!-- <div class="col-lg-6 col-md-6 col-sm-6 " 
-        >
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <h2 style="color: #ffa2b2">About me</h2>
 
-        <div>
-          <i
-            class="fa-brands fa-html5 "
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="500"
-          > 
-          </i>
-          
+              <br />
 
-          <i
-            class="fa-brands fa-css3-alt"
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="550"
-          ></i>
+              <p>
+                Hello, my name is Xena Skhikhi. I am an ambitious front-end
+                developer. I learned design and art. I love coding and designing
+                websites and want to continue my career as a web developer. My
+                passion for these areas drives me to make something special.
+              </p>
+              <br />
+              <h2 style="color: #ffa2b2">Resume</h2>
+              <br />
+              <h5 style="color: #ffa2b2">
+                <a
+                  href="https://muizenberghigh.org/"
+                  target="_blank"
+                  style="
+                    text-decoration: underline;
+                    text-decoration-style: dotted;
+                    color: #ffa2b2;
+                  "
+                  >Muizenberg High School</a
+                >
+                | 2017 - 2021
+              </h5>
+              <br />
+              <p>
+                I attended Muizenberg High School and studied art and visual
+                arts. I plan to use it to improve our skills, build better
+                websites and create better web designs.
+              </p>
+              <br />
 
-          <i
-            class="fa-brands fa-bootstrap"
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="600"
-          ></i>
+              <h5 style="color: #ffa2b2">
+                <a
+                  href="https://www.lifechoices.co.za/academy"
+                  target="_blank"
+                  style="
+                    text-decoration: underline;
+                    text-decoration-style: dotted;
+                    color: #ffa2b2;
+                  "
+                >
+                  Life Choices Academy</a
+                >
+                | 2022 - present
+              </h5>
 
-          <i
-            class="fa-brands fa-js-square"
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="650"
-          ></i>
-
-          <i
-            class="fa-brands fa-vuejs"
-            data-aos="fade-left"
-            data-aos-easing="linear"
-            data-aos-duration="700"
-          ></i>
+              <br />
+              <p>
+                I am currently working and studying at the Life Choices Academy
+                to improve my coding skills
+              </p>
+              <br />
+              <a
+                href="https://drive.google.com/uc?export=download&id=1Gj1EvvKWGgfeaNABgqG0Gb6qKN4Evhbm"
+                download
+              >
+                <button
+                  style="padding-right: 20px; padding-left: 20px; padding: 10px"
+                >
+                  download Cv
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
-          
-
-        </div> -->
-
-        </div>
-        
-
       </div>
-      
-      </div>
-      
-
     </div>
   </div>
 </template>
@@ -118,17 +107,12 @@ export default {
 </script>
 
 <style scoped>
-
 i {
   font-size: 50px;
   display: flex;
   justify-content: center;
   color: #ffa2b2;
 }
-
-/* #Skillinfo {
-  gap: 100px;
-} */
 
 img {
   display: flex;
@@ -140,7 +124,7 @@ img {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    padding: 0;
+  padding: 0;
 }
 
 .floating {
@@ -148,8 +132,6 @@ img {
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  /* margin-left: 30px;
-    margin-top: 5px; */
 }
 
 @keyframes floating {
@@ -173,12 +155,10 @@ img {
   object-position: 0px 0px;
 }
 
-button{
+button {
   background-color: #ffa2b2;
-    border-radius: 20px;
-    color: white;
-    border: none;
-    
+  border-radius: 20px;
+  color: white;
+  border: none;
 }
 </style>
-

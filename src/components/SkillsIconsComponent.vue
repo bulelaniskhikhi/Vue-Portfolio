@@ -1,5 +1,6 @@
 <template>
 
+    <h3 style="padding-bottom: 3rem; font-family: 'Roboto', sans-serif; font-size: 2.6rem; text-align: center;">Programming Languages</h3>
     <div class="icons">
       <a href="#"><i class="fa-brands fa-html5"></i></a>
 
@@ -11,8 +12,6 @@
       
       <a href="#"><i class="fa-brands fa-square-js"></i></a>
       
-      <a href="#"><i "></i></a>
-      <a href="#"><i class="fa fa-linkedin"></i></a>
     </div>
 
 </template>
