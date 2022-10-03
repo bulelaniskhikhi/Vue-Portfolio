@@ -7,7 +7,7 @@
 
       <div class="container " id="landingtext" style="display: flex; justify-content: start; align-items: end; height: 100vh; width: 100%">
 
-        <div style=" display: flex; justify-content: end; margin-bottom: 10rem; margin-right: 2rem">
+        <div style=" display: flex; justify-content: end; margin-bottom: 10rem; margin-right: 2rem; height: 100%;">
         <div>
           <h1 style="color: white">Hi my name is Xena</h1>
           <p id="landingdesc" class="fw-light" style="width: 80%">
