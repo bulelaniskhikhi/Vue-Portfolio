@@ -14,7 +14,7 @@
 
 <img src="https://i.postimg.cc/xCvxS39M/product-list.gif" class="d-block img-fluid" >
 
-<div class="card-body overflow-auto" style="height: 30vh;">
+<div class="card-body overflow-auto" style="height: 25vh;">
 
 <div style="color: #ffa2b2;">
   <div class="mx-auto" style="display: flex; justify-content: center; width: 80%; text-align: center;">
@@ -110,47 +110,70 @@ export default {
   data (){
     return{
       projects:[
+      // {
+      //   id: 1,
+      //   name: 'Chaos Emeralds',
+      //   img_URL: 'https://i.postimg.cc/3JyvZ9fn/chaos-crystal.gif',
+      //   project_DESC: 'This is a personal project inspired by the Sonic series. I decided to create a 3D carousel from Chaos emeralds',
+      //   project_GithubLink: 'https://github.com/bulelaniskhikhi/Choas-Emeralds-3d-Carousel',
+      //   project_LiveLink: "https://starlit-lokum-0f1d72.netlify.app/",
+      // },
+      // {
+      //   id: 2,
+      //   name: 'JS Calculator',
+      //   img_URL: "https://i.postimg.cc/FsW73VPp/js-calculator.gif",
+      //   project_DESC: "This was a project given to use by Life Choices Academy were we had to make a functional Javascript Calculator",
+      //   project_GithubLink: "https://github.com/bulelaniskhikhi/Exercise-2-Calculator",
+      //   project_LiveLink: "https://preeminent-starburst-2a35ec.netlify.app/",
+      // },
+      // {
+      //   id: 3,
+      //   name: "Interest Calculator",
+      //   img_URL: "https://i.postimg.cc/WzLqhG78/ezgif-4-1e4015c703.gif",
+      //   project_DESC:"This was a project given by Life Choices Academy were we had to make a functional JavaScript interest calculator",
+      //   project_GithubLink:"https://github.com/bulelaniskhikhi/Exercise_14--Interest-Amount-",
+      //   project_LiveLink: "https://fascinating-crostata-8ab8ed.netlify.app/",
+      // },
+      // {
+      //   id: 4,
+      //   name: "Hex to RGB Converter",
+      //   img_URL:"https://i.postimg.cc/J7gFqGsY/hex-to-RGB.gif",
+      //   project_DESC:"This is a project given to us by Life Choices Academy were we had to type in a number and it must convert it from hex to rgb and show a preview of the colour ",
+      //   project_GithubLink:"https://github.com/bulelaniskhikhi/Exercise_12--Hex-to-RGB-",
+      //   project_LiveLink:"https://glistening-sherbet-4b2f75.netlify.app/",
+      // },
+      // {
+      //   id: 5,
+      //   name: "Mahou Shoujo site",
+      //   img_URL: "https://i.postimg.cc/B60XKxDW/ezgif-4-1002d57936.gif",
+      //   project_DESC: "This is personal project where i took inspiration from an Manga/anime i was one of my favourite projects and i still continue to work on it",
+      //   project_GithubLink: "https://github.com/bulelaniskhikhi/Mahou-Shoujo-site",
+      //   project_LiveLink: "https://mahou-shoujo-site.netlify.app/",
+      // },
       {
-        id: 1,
-        name: 'Chaos Emeralds',
-        img_URL: 'https://i.postimg.cc/3JyvZ9fn/chaos-crystal.gif',
-        project_DESC: 'This is a personal project inspired by the Sonic series. I decided to create a 3D carousel from Chaos emeralds',
-        project_GithubLink: 'https://github.com/bulelaniskhikhi/Choas-Emeralds-3d-Carousel',
-        project_LiveLink: "https://starlit-lokum-0f1d72.netlify.app/",
+        id: 6,
+        name: "Xena Vermont",
+        img_URL: "https://i.postimg.cc/j20L5Jc2/Xena-Vermont.gif",
+        project_DESC: "I created this project for Life Choices Academy's e-commerce course. I chose to create my items as Playstation 1 Japanese horror games because I wanted to include some of my passions into my work. Personally, I love this project because of the artistic direction and how it incorporates my passions.",
+        project_GithubLink: "https://github.com/bulelaniskhikhi/Xena-Vermont-GUI-",
+        project_LiveLink: "https://xena-vermont-capstone.netlify.app/",
       },
       {
-        id: 2,
-        name: 'JS Calculator',
-        img_URL: "https://i.postimg.cc/FsW73VPp/js-calculator.gif",
-        project_DESC: "This was a project given to use by Life Choices Academy were we had to make a functional Javascript Calculator",
-        project_GithubLink: "https://github.com/bulelaniskhikhi/Exercise-2-Calculator",
-        project_LiveLink: "https://preeminent-starburst-2a35ec.netlify.app/",
+        id: 7,
+        name: "Divinitas",
+        img_URL: "https://i.postimg.cc/RCNkCDJW/Divinitas.gif",
+        project_DESC: "I worked on the website's front end and design for this two-person group project given to us by Life Choices Academy. In high fashion apparel, I wanted to build a business that embodied what I saw to be divine femininity. Being extremely interested about fashion, it was a lot of fun to make this project.",
+        project_GithubLink: "https://github.com/bulelaniskhikhi/Vue-Divinitas",
+        project_LiveLink: "https://divinitas.netlify.app/",
       },
       {
-        id: 3,
-        name: "Interest Calculator",
-        img_URL: "https://i.postimg.cc/WzLqhG78/ezgif-4-1e4015c703.gif",
-        project_DESC:"This was a project given by Life Choices Academy were we had to make a functional JavaScript interest calculator",
-        project_GithubLink:"https://github.com/bulelaniskhikhi/Exercise_14--Interest-Amount-",
-        project_LiveLink: "https://fascinating-crostata-8ab8ed.netlify.app/",
+        id: 8,
+        name: "Unholy Season",
+        img_URL: "https://i.postimg.cc/gJJ7MmwH/unholy-season.gif",
+        project_DESC: "We developed a website that hosted and reviewed horror anime as a four-person team project asigned to us by Life Choices Academy. This is the most memorable project because I made a trailer for the website, which contributed to our winning.",
+        project_GithubLink: "https://github.com/A-SCharles/UnholySeason",
+        project_LiveLink: "https://unholyseason-3ff41.web.app",
       },
-      {
-        id: 4,
-        name: "Hex to RGB Converter",
-        img_URL:"https://i.postimg.cc/J7gFqGsY/hex-to-RGB.gif",
-        project_DESC:"This is a project given to us by Life Choices Academy were we had to type in a number and it must convert it from hex to rgb and show a preview of the colour ",
-        project_GithubLink:"https://github.com/bulelaniskhikhi/Exercise_12--Hex-to-RGB-",
-        project_LiveLink:"https://glistening-sherbet-4b2f75.netlify.app/",
-      },
-      {
-        id: 5,
-        name: "Mahou Shoujo site",
-        img_URL: "https://i.postimg.cc/B60XKxDW/ezgif-4-1002d57936.gif",
-        project_DESC: "This is personal project where i took inspiration from an Manga/anime i was one of my favourite projects and i still continue to work on it",
-        project_GithubLink: "https://github.com/bulelaniskhikhi/Mahou-Shoujo-site",
-        project_LiveLink: "https://mahou-shoujo-site.netlify.app/",
-      }
-        
       ]
     }
   }
