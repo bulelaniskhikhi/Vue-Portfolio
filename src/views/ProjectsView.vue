@@ -17,7 +17,7 @@
 <div class="card-body overflow-auto" style="height: 25vh;">
 
 <div style="color: #ffa2b2;">
-  <div class="mx-auto" style="display: flex; justify-content: center; width: 80%; text-align: center;">
+  <div class="mx-auto" style="display: flex; justify-content: center; text-align: center;">
     <h5 class="fs-5 fw-light card-text" >
       This was a project I did while at the Life Choices Academy and I had to use Javascript to display the products. I decided to use Magical Weapons as my products to sell. It was a homage to the 90s anime magical girl aesthetic, taking alot of inspiration from Sailor moon and Cardcaptor Sakura
   </h5>
