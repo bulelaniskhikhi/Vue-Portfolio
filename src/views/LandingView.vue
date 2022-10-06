@@ -9,7 +9,12 @@
 
         <div style=" display: flex; justify-content: end; margin-bottom: 10rem; margin-right: 2rem">
         <div>
-          <h1 style="color: white">Hi my name is Xena</h1>
+          <h1 
+            style="color: white;
+            font-family: 'Roboto', sans-serif;"
+          >
+            Hi my name is Xena
+          </h1>
           <p id="landingdesc" class="fw-light" style="width: 80%">
             Hi, I'm an ambitious Front end developer based in Cape Town, South Africa. I seek every possible means to expand my abilities. If you can't tell pink is my favorite colour ♥
           </p>

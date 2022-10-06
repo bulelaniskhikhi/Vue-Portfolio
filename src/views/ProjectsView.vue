@@ -10,14 +10,16 @@
 
       <div class="card" style="width: 100%;">
 
-<h5 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" class="card-title">Magica</h5>
+
 
 <img src="https://i.postimg.cc/xCvxS39M/product-list.gif" class="d-block img-fluid" >
+
+<h5 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" class="card-title">Magica</h5>
 
 <div class="card-body overflow-auto" style="height: 25vh;">
 
 <div style="color: #ffa2b2;">
-  <div class="mx-auto" style="display: flex; justify-content: center; text-align: center;">
+  <div class="mx-auto" style="display: flex; justify-content: center; width: 80%; text-align: center;">
     <h5 class="fs-5 fw-light card-text" >
       This was a project I did while at the Life Choices Academy and I had to use Javascript to display the products. I decided to use Magical Weapons as my products to sell. It was a homage to the 90s anime magical girl aesthetic, taking alot of inspiration from Sailor moon and Cardcaptor Sakura
   </h5>
@@ -46,9 +48,10 @@
     <div class="carousel-item" v-for="project in projects" :key="project.id">
       <div class="card" style="width: 100%;">
 
+        <img :src="project.img_URL" :alt="project.name" class="d-block img-fluid" >
+
         <h5 style="color: #ffa2b2; text-align: center; margin-top: 1rem;" class="card-title">{{project.name}}</h5>
 
-        <img :src="project.img_URL" :alt="project.name" class="d-block img-fluid" >
 
       <div class="card-body overflow-auto" style="height: 25vh;">
         
