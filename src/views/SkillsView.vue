@@ -18,7 +18,7 @@
             class="floating cover img-fluid"
             src="https://i.postimg.cc/MpPkdFJn/Bulelani-1.jpg"
             alt=""
-            style="width: 100%; margin-bottom: 3rem"
+            style="width: 100%; margin-bottom: 3rem; height: 87%;"
           />
         </div>
 
@@ -30,10 +30,11 @@
               <br />
 
               <p>
-                Hello, my name is Xena Skhikhi. I am an ambitious front-end
-                developer. I learned design and art. I love coding and designing
-                websites and want to continue my career as a web developer. My
-                passion for these areas drives me to make something special.
+                Hello, my name is Xena Skhikhi. I'm a 19 year old trans woman who is hightly ambitious
+                about front-end developement. I learned design and art in highschool and have always
+                seeked ways to flex my creative vision weather it's through drawing or coding. 
+                I love coding and designing websites and want to continue and hopefully turn it into my career. 
+                I feel that my passion for these areas drives me to make something really special and unique.
               </p>
               <br />
               <h2 style="color: #ffa2b2">Resume</h2>
@@ -119,12 +120,13 @@ img {
   justify-content: center;
   border-radius: 20px;
 
-  width: 50%;
+  /* width: 50%; */
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   padding: 0;
+  height: 100%;
 }
 
 .floating {
