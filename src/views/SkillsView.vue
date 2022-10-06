@@ -82,6 +82,7 @@
               </p>
               <br />
               <a
+              id="cvbtn"
                 href="https://drive.google.com/uc?export=download&id=1Gj1EvvKWGgfeaNABgqG0Gb6qKN4Evhbm"
                 download
               >
@@ -108,6 +109,10 @@ export default {
 </script>
 
 <style scoped>
+#cvbtn{
+  display: flex; justify-content: center; text-decoration: none;
+}
+
 i {
   font-size: 50px;
   display: flex;
