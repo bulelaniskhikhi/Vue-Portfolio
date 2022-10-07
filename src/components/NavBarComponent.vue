@@ -21,16 +21,32 @@
 
     <nav 
       class="navbar navbar-expand-lg fixed-top" 
-      style="background-color: #ffc2cc; height: 10vh; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; font-size: 1.3rem; font-weight: 100;">
-  <div class="container d-flex justify-content-center">
+      style="background-color: #ffc2cc; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; font-size: 1.3rem; font-weight: 100;">
+  <div class="container ">
 
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button 
+      style="color: white; border: none;"
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation"
+    >
+      <i
+        class="bi bi-list"
+        style="font-size: 2rem;"
+      >
+    </i>
     </button>
 
-    <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
+    <div 
+      class="collapse navbar-collapse" 
+      id="navbarNav"
+    >
       <ul class="navbar-nav">
 
         <li class="nav-item">
@@ -75,5 +91,11 @@ a{
 
   text-decoration: none;
   color: white;
+}
+@media only screen and (min-width: 992px) {
+  #navbarNav {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 </style>

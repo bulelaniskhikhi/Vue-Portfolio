@@ -54,9 +54,9 @@
               </h5>
               <br />
               <p>
-                I attended Muizenberg High School and studied art and visual
-                arts. I plan to use it to improve our skills, build better
-                websites and create better web designs.
+                I attended Muizenberg High School where i studied Fine Arts and Visual
+                Design. I plan to use these skills to better build
+                websites and create innovative web designs.
               </p>
               <br />
 
@@ -78,7 +78,7 @@
               <br />
               <p>
                 I am currently working and studying at the Life Choices Academy
-                to improve my coding skills
+                to improve on my web design and better understand GUI and user friendly sites.
               </p>
               <br />
               <a
