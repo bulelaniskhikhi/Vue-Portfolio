@@ -72,7 +72,7 @@
         </li>
 
         <li class="ms-3">
-          <a class="text-muted" href="https://www.linkedin.com/in/zuiel-undefined-59040a246/" target="_blank">
+          <a class="text-muted" href="https://www.linkedin.com/in/xena-skhikhi-59040a246/" target="_blank">
             <i class="fa-brands fa-linkedin" style="font-size: 24px"></i>
           </a>
         </li>
