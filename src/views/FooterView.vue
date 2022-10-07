@@ -58,13 +58,14 @@
     </ul>
     <div class="container">
       <div
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+      id="lowerFooter"
+      class=" flex-wrap align-items-center py-3 my-4"
     >
-      <div class="col-md-4 d-flex align-items-center">
+      <div class="col-md-6 col-sm-12 d-flex align-items-center">
         <span class="mb-3 mb-md-0 text-white">© 2022 Xena Portfolio, Inc</span>
       </div>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <ul class="nav col-md-6 col-sm-12 justify-content-end list-unstyled d-flex">
         <li class="ms-3">
           <p class="text-white">
             +27 84 820 5707 <i class="fa-solid fa-phone" style="font-size: 24px"></i>
@@ -84,6 +85,7 @@
         </li>
       </ul>
     </div>
+
     </div>
     
   </footer>
@@ -105,5 +107,19 @@ i {
   font-size: 2rem;
   margin: 5px;
   color: white;
+}
+
+@media only screen and (max-width: 997px){
+	#lowerFooter{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 998px){
+  #lowerFooter{
+    display: flex;
+    justify-content: space-between;
+  }
 }
 </style>
