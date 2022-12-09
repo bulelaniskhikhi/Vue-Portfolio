@@ -109,7 +109,7 @@ export default {
           id: 2,
           name: "Mikhail Thomas",
           title: "Classmate & Pupil",
-          desc: "It is my pleasure to strongly recommend Xena Skhikhi for the position in your team. My name is Mikhail Thomas and I have personally worked in close quarters with Bulelani and the energy they bring to the environment is truly unmatched. She is a talented, confident hard worker who speaks to people with the utmost respect regardless of who the are and completes every project with grace and finesse. I personally was immediately impressed with her confidence, fashion sense and her technical abilities.",
+          desc: "It is my pleasure to strongly recommend Xena Skhikhi for the position in your team. My name is Mikhail Thomas and I have personally worked in close quarters with Xena and the energy they bring to the environment is truly unmatched. She is a talented, confident hard worker who speaks to people with the utmost respect regardless of who the are and completes every project with grace and finesse. I personally was immediately impressed with her confidence, fashion sense and her technical abilities.",
           img_URL: "https://i.postimg.cc/Y9gspRnR/Mikhail-2.jpg",
         },
         {

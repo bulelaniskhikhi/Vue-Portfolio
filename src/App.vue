@@ -16,9 +16,6 @@
      
     <FooterView/>
 
-  
-    
-
 </template>
 
 <script>
